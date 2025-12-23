@@ -8,6 +8,7 @@ export default defineAdditionalConfig({
   title: 'A Russian Day',
   description: 'Официальная википедия по модификации A Russian Day',
   head: [['link', { rel: 'icon', href: 'ard_logo_white.png' }]],
+  base: '/ard-docs/',
 
   themeConfig: {
     logo: 'ard_logo_white.png',
