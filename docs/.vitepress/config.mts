@@ -100,7 +100,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: 'Российская Федеративная Империя', link: 'countries/russia/russia.md' },
-        { text: 'Германская Республика', link: 'countries/germany' },
+        { text: 'Германская Республика', link: 'countries/germany/germany.md' },
         { text: 'Соединённые Штаты Америки', link: 'countries/usa' }
       ]
     },
