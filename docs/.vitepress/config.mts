@@ -99,7 +99,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       text: 'Локальный сюжет',
       collapsed: false,
       items: [
-        { text: 'Российская Федеративная Империя', link: 'countries/russia' },
+        { text: 'Российская Федеративная Империя', link: 'countries/russia/russia.md' },
         { text: 'Германская Республика', link: 'countries/germany' },
         { text: 'Соединённые Штаты Америки', link: 'countries/usa' }
       ]
