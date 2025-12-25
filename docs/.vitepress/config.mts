@@ -100,7 +100,44 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: 'Российская Федеративная Империя', link: 'countries/russia/russia.md' },
-        { text: 'Германская Республика', link: 'countries/germany/germany.md' },
+        { text: 'Германская Республика', link: 'countries/germany/germany.md',
+          collapsed: false,
+          items: [
+            { text: 'Основной сюжет', link: 'countries/germany/lore/lore.md',
+              collapsed: false,
+              items: [
+                { text: 'Введение', link: 'countries/germany/lore/start.md' ,
+                  collapsed: false,
+                  items: [
+                    { text: 'Партии', link: 'countries/germany/lore/parties.md',
+                      collapsed: false,
+                      items: [
+                        { text: 'Koalition der Linken Krafte', link: 'countries/germany/lore/parties/KLK.md'},
+                        { text: 'Alternative für Deutschland', link: 'countries/germany/lore/parties/AfD.md'},
+                        { text: 'Christlich Demokratische Union Deutschlands', link: 'countries/germany/lore/parties/CDU.md'},
+                        { text: 'Die Grünen', link: 'countries/germany/lore/parties/Grunen.md'},
+                        { text: 'Freie Demokratische Partei', link: 'countries/germany/lore/parties/FDP.md'}
+                      ]
+                    },
+                    { text: 'Персонажи',
+                      collapsed: false,
+                      items: [
+                        { text: 'Патрик Кёбеле', link: 'countries/germany/lore/characters/Partick_Kobele.md'},
+                        { text: 'Алиса Вайдель', link: 'countries/germany/lore/characters/Alice_Waidel.md'},
+                        { text: 'Олаф Шольц', link: 'countries/germany/lore/characters/Olaf_Sholz'},
+                        { text: 'Фридрих Мерц', link: 'countries/germany/lore/characters/Fridrich_Merz'},
+                        { text: 'Сара Вагенкнехт', link: 'countries/germany/lore/characters/Sara_Vagenkneht'}
+                      ]
+                    },
+                  ]
+                },
+                { text: 'Довоенное время', link: 'countries/germany/lore/beforewar'},
+                { text: 'Политика военного времени', link: 'countries/lore/germany/war'},
+                { text: 'Конец войны', link: 'countries/germany/lore/endwar' },
+              ]
+            }
+          ]
+        },
         { text: 'Соединённые Штаты Америки', link: 'countries/usa' }
       ]
     },
