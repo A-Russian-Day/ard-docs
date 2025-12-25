@@ -92,7 +92,14 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: 'Глава I', link: 'first-chapter' },
-        { text: 'Глава II', link: 'second-chapter' }
+        { text: 'Глава II', link: 'second-chapter' },
+        { text: 'Глава III', link: 'third-chapter' },
+        { text: 'Глава IV', 
+          link: 'fourth-chapter',
+          collapsed: false,
+          items: [
+            { text: 'Европейский фронт', link: 'fourth-chapter/european-front.md' },
+          ]}
       ]
     },
     {
