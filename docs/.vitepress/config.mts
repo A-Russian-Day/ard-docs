@@ -95,10 +95,10 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: 'Глава II', link: 'second-chapter' },
         { text: 'Глава III', link: 'third-chapter' },
         { text: 'Глава IV', 
-          link: 'fourth-chapter',
+          link: 'ww3/fourth-chapter.md',
           collapsed: false,
           items: [
-            { text: 'Европейский фронт', link: 'fourth-chapter/european-front.md' },
+            { text: 'Европейский фронт', link: 'ww3/european-front.md' }
           ]}
       ]
     },
