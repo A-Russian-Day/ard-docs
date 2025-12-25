@@ -1,7 +1,7 @@
 # Вики A Russian Day
 Официальная вики по модификации, работающая на [VitePress](https://vitepress.dev/).
 
-Ссылка на просмотр: a-russian-day.github.io/ard-docs/
+Ссылка на просмотр: https://docs.arussianday.ru
 
 Запуск
 ```bash
