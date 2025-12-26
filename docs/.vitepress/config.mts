@@ -109,7 +109,6 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: 'Российская Федеративная Империя', link: 'countries/russia/russia.md' },
         { text: 'Германская Республика', link: 'countries/germany/germany.md' },
         { text: 'Соединённые Штаты Америки', link: 'countries/usa' },
-        { text: 'Трансильвания', link: 'countries/transilvania/transilvania.md' },
         { text: 'Эфиопия', link: 'countries/ethiopia/ethiopia.md' }
       ]
     },
@@ -118,6 +117,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: 'Диверсии на Потоках (2024)', link: 'conflicts/diversion_potoks/diversion_potoks.md' },
+        { text: 'Трансильванское восстание (2025)', link: 'conflicts/transilvanian_resistance/transilvanian_resistance.md' },
         { text: 'Каталонский кризис (2026)', link: 'conflicts/catalonian_crisis/catalonian_crisis.md' },
         { text: 'Владивостокский мирный договор (2028)', link: 'conflicts/vladivostok_peace_treaty/vladivostok_peace_treaty.md' }
       ]
