@@ -110,7 +110,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: 'Германская Республика', link: 'countries/germany/germany.md' },
         { text: 'Соединённые Штаты Америки', link: 'countries/usa' },
         { text: 'Эфиопия', link: 'countries/ethiopia/ethiopia.md' },
-        { text: 'Эфиопия', link: 'countries/rzvl/rzvl.md' }
+        { text: 'РЗВЛ', link: 'countries/rzvl/rzvl.md' }
       ]
     },
     {
