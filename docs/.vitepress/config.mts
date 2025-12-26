@@ -117,8 +117,8 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       text: 'События и войны',
       collapsed: false,
       items: [
-        { text: 'Владивостокский мирный договор', link: 'conflicts/vladivostok_peace_treaty.md' },
-        { text: 'Трансильванский конфликт', link: 'conflicts/transylvania.md' }
+        { text: 'Диверсии на Потоках (2024)', link: 'conflicts/diversion_potoks/diversion_potoks.md' },
+        { text: 'Владивостокский мирный договор (2028)', link: 'conflicts/vladivostok_peace_treaty/vladivostok_peace_treaty.md' }
       ]
     }
   ]
