@@ -109,7 +109,8 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: 'Российская Федеративная Империя', link: 'countries/russia/russia.md' },
         { text: 'Германская Республика', link: 'countries/germany/germany.md' },
         { text: 'Соединённые Штаты Америки', link: 'countries/usa' },
-        { text: 'Эфиопия', link: 'countries/ethiopia/ethiopia.md' }
+        { text: 'Эфиопия', link: 'countries/ethiopia/ethiopia.md' },
+        { text: 'Эфиопия', link: 'countries/rzvl/rzvl.md' }
       ]
     },
     {
