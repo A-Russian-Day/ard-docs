@@ -120,7 +120,8 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: 'Диверсии на Потоках (2024)', link: 'conflicts/diversion_potoks/diversion_potoks.md' },
         { text: 'Трансильванское восстание (2025)', link: 'conflicts/transilvanian_resistance/transilvanian_resistance.md' },
         { text: 'Каталонский кризис (2026)', link: 'conflicts/catalonian_crisis/catalonian_crisis.md' },
-        { text: 'Владивостокский мирный договор (2028)', link: 'conflicts/vladivostok_peace_treaty/vladivostok_peace_treaty.md' }
+        { text: 'Владивостокский мирный договор (2028)', link: 'conflicts/vladivostok_peace_treaty/vladivostok_peace_treaty.md' },
+        { text: 'Новгородский процесс (2029)', link: 'conflicts/novgorod_process/novgorod_process.md' }
       ]
     }
   ]
