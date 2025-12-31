@@ -116,7 +116,6 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
             { text: 'Лор', link: 'countries/germany/lore.md' },
             { text: 'Партии', link: 'countries/germany/parties.md' }
           ]},
-        { text: 'Соединённые Штаты Америки', link: 'countries/usa' },
         { text: 'Эфиопия', link: 'countries/ethiopia/ethiopia.md' },
         { text: 'РЗВЛ', link: 'countries/rzvl/rzvl.md' }
       ]
