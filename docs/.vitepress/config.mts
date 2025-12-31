@@ -98,7 +98,8 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
           link: 'ww3/fourth-chapter.md',
           collapsed: false,
           items: [
-            { text: 'Европейский фронт', link: 'ww3/european-front.md' }
+            { text: 'Европейский фронт', link: 'ww3/european-front.md' },
+            { text: 'Азиатский фронт', link: 'ww3/asian-front.md' }
           ]}
       ]
     },
