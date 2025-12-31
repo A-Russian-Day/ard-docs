@@ -92,7 +92,15 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: 'Глава I', link: 'first-chapter' },
-        { text: 'Глава II', link: 'second-chapter' }
+        { text: 'Глава II', link: 'second-chapter' },
+        { text: 'Глава III', link: 'third-chapter' },
+        { text: 'Глава IV', 
+          link: 'ww3/fourth-chapter.md',
+          collapsed: false,
+          items: [
+            { text: 'Европейский фронт', link: 'ww3/european-front.md' },
+            { text: 'Азиатский фронт', link: 'ww3/asian-front.md' }
+          ]}
       ]
     },
     {
@@ -100,53 +108,21 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: 'Российская Федеративная Империя', link: 'countries/russia/russia.md' },
-        { text: 'Германская Республика', link: 'countries/germany/germany.md',
-          collapsed: false,
-          items: [
-            { text: 'Основной сюжет', link: 'countries/germany/lore/lore.md',
-              collapsed: false,
-              items: [
-                { text: 'Введение', link: 'countries/germany/lore/start.md' ,
-                  collapsed: false,
-                  items: [
-                    { text: 'Партии', link: 'countries/germany/lore/parties.md',
-                      collapsed: false,
-                      items: [
-                        { text: 'Koalition der Linken Krafte', link: 'countries/germany/lore/parties/KLK.md'},
-                        { text: 'Alternative für Deutschland', link: 'countries/germany/lore/parties/AfD.md'},
-                        { text: 'Christlich Demokratische Union Deutschlands', link: 'countries/germany/lore/parties/CDU.md'},
-                        { text: 'Die Grünen', link: 'countries/germany/lore/parties/Grunen.md'},
-                        { text: 'Freie Demokratische Partei', link: 'countries/germany/lore/parties/FDP.md'}
-                      ]
-                    },
-                    { text: 'Персонажи',
-                      collapsed: false,
-                      items: [
-                        { text: 'Патрик Кёбеле', link: 'countries/germany/lore/characters/Partick_Kobele.md'},
-                        { text: 'Алиса Вайдель', link: 'countries/germany/lore/characters/Alice_Waidel.md'},
-                        { text: 'Олаф Шольц', link: 'countries/germany/lore/characters/Olaf_Sholz'},
-                        { text: 'Фридрих Мерц', link: 'countries/germany/lore/characters/Fridrich_Merz'},
-                        { text: 'Сара Вагенкнехт', link: 'countries/germany/lore/characters/Sara_Vagenkneht'}
-                      ]
-                    },
-                  ]
-                },
-                { text: 'Довоенное время', link: 'countries/germany/lore/beforewar'},
-                { text: 'Политика военного времени', link: 'countries/lore/germany/war'},
-                { text: 'Конец войны', link: 'countries/germany/lore/endwar' },
-              ]
-            }
-          ]
-        },
-        { text: 'Соединённые Штаты Америки', link: 'countries/usa' }
+        { text: 'Германская Республика', link: 'countries/germany/germany.md' },
+        { text: 'Соединённые Штаты Америки', link: 'countries/usa' },
+        { text: 'Эфиопия', link: 'countries/ethiopia/ethiopia.md' },
+        { text: 'РЗВЛ', link: 'countries/rzvl/rzvl.md' }
       ]
     },
     {
       text: 'События и войны',
       collapsed: false,
       items: [
-        { text: 'Владивостокский мирный договор', link: 'conflicts/vladivostok_peace_treaty.md' },
-        { text: 'Трансильванский конфликт', link: 'conflicts/transylvania.md' }
+        { text: 'Диверсии на Потоках (2024)', link: 'conflicts/diversion_potoks/diversion_potoks.md' },
+        { text: 'Трансильванское восстание (2025)', link: 'conflicts/transilvanian_resistance/transilvanian_resistance.md' },
+        { text: 'Каталонский кризис (2026)', link: 'conflicts/catalonian_crisis/catalonian_crisis.md' },
+        { text: 'Владивостокский мирный договор (2028)', link: 'conflicts/vladivostok_peace_treaty/vladivostok_peace_treaty.md' },
+        { text: 'Новгородский процесс (2029)', link: 'conflicts/novgorod_process/novgorod_process.md' }
       ]
     }
   ]
