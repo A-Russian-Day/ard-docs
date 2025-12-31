@@ -109,7 +109,19 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: 'Российская Федеративная Империя', link: 'countries/russia/russia.md' },
+<<<<<<< Updated upstream
         { text: 'Германская Республика', link: 'countries/germany/germany.md' },
+=======
+        { text: 'Германская Республика', 
+          link: 'countries/germany/lore.md',
+          collapsed: false,
+          items: [
+            { text: 'Лор', link: 'countries/germany/lore.md' },
+            { text: 'Партии', link: 'countries/germany/parties.md' },
+            { text: 'Персонажи', link: 'countries/germany/characters.md' }
+          ]},
+        { text: 'Соединённые Штаты Америки', link: 'countries/usa' },
+>>>>>>> Stashed changes
         { text: 'Эфиопия', link: 'countries/ethiopia/ethiopia.md' },
         { text: 'РЗВЛ', link: 'countries/rzvl/rzvl.md' }
       ]
