@@ -100,6 +100,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
           items: [
             { text: 'Европейский фронт', link: 'ww3/european-front.md' },
             { text: 'Азиатский фронт', link: 'ww3/asian-front.md' }
+            { text: 'Ближневосточный фронт', link: 'ww3/near_east-front.md' }
           ]}
       ]
     },
