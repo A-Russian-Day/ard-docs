@@ -32,6 +32,6 @@ features:
   - title: Эфиопия
     icon: {src: 'icons8-ethiopia-96.png'}
     details: Африканский континент переживает не лучшие времена. Сможет ли Эфиопия объединить его под красным знаменем?
-    link: story\countries\usa.md
+    link: story/countries/ethiopia/ethiopia.md
 
 ---
