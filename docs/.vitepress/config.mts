@@ -114,8 +114,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
           collapsed: false,
           items: [
             { text: 'Лор', link: 'countries/germany/lore.md' },
-            { text: 'Партии', link: 'countries/germany/parties.md' },
-            { text: 'Персонажи', link: 'countries/germany/characters.md' }
+            { text: 'Партии', link: 'countries/germany/parties.md' }
           ]},
         { text: 'Соединённые Штаты Америки', link: 'countries/usa' },
         { text: 'Эфиопия', link: 'countries/ethiopia/ethiopia.md' },
