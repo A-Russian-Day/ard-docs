@@ -22,16 +22,16 @@ features:
   - title: Российская Федеративная Империя
     icon: {src: 'icons8-russia-96.png'}
     details: Сможет ли новый мировой властитель удержать свои позиции в мире, им же построенным?
-    link: story\countries\russia.md
+    link: story\countries\russia\russia.md
 
   - title: Германская Республика
     icon: {src: 'icons8-germany-96.png'}
     details: Германия вновь стоит на тонкой грани между двумя крайностями. Кто победит в этой схватке, и что победитель сделает с Европой в качестве мести?
-    link: story\countries\germany.md
+    link: story\countries\germany\germany.md
 
-  - title: Соединённые Штаты
-    icon: {src: 'icons8-united-states-minor-outlying-islands-96.png'}
-    details: Американской мечты больше нет. Теперь есть только гнев и желание восстановить прошлый порядок. Китайский дракон должен быть стёрт с карты, но какими методами?
+  - title: Эфиопия
+    icon: {src: 'icons8-ethiopia-96.png'}
+    details: Африканский континент переживает не лучшие времена. Сможет ли Эфиопия объединить его под красным знаменем?
     link: story\countries\usa.md
 
 ---

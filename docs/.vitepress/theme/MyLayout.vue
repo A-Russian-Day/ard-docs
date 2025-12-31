@@ -23,7 +23,7 @@ const { Layout } = DefaultTheme
 
         <div class="hero-image">
             <img src="/load_12.png" alt="Ard Mod preview" />
-        </div>
+        </div>   
         </section>
 
     </template>

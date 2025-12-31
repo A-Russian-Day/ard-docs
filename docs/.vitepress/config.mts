@@ -21,7 +21,7 @@ export default defineAdditionalConfig({
 
     footer: {
       message: 'A Russian Day Team',
-      copyright: '© 2025'
+      copyright: '© 2022—2026'
     },
 
     outline: { label: 'Содержание страницы' },
@@ -100,7 +100,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
           items: [
             { text: 'Европейский фронт', link: 'ww3/european-front.md' },
             { text: 'Азиатский фронт', link: 'ww3/asian-front.md' },
-            { text: 'Ближневосточный фронт', link: 'ww3/near_east-front.md' }
+            { text: 'Ближневосточный фронт', link: 'ww3/near-east-front.md' }
           ]}
       ]
     },
@@ -132,8 +132,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
 
 function sidebarVersions(): DefaultTheme.SidebarItem[] {
   return [
-    { text: 'v1.0.0', link: 'first-chapter' },
-    { text: 'v1.1.0 - "First Strike"', link: 'first-chapter' }
+    { text: 'В разработке', link: '' }
   ]
 }
 
