@@ -27,7 +27,7 @@ features:
   - title: Германская Республика
     icon: {src: 'icons8-germany-96.png'}
     details: Германия вновь стоит на тонкой грани между двумя крайностями. Кто победит в этой схватке, и что победитель сделает с Европой в качестве мести?
-    link: story\countries\germany\germany.md
+    link: story\countries\germany\lore.md  
 
   - title: Эфиопия
     icon: {src: 'icons8-ethiopia-96.png'}
